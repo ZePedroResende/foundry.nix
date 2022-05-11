@@ -10,6 +10,7 @@
     flake-utils.lib.eachSystem [
       "x86_64-linux"
       "x86_64-darwin"
+      "aarch64-linux"
       "aarch64-darwin"
     ] (system:
       let
@@ -25,6 +26,10 @@
         apps.forge = {
           type = "app";
           program = "${defaultPackage}/bin/forge";
+        };
+        apps.anvil = {
+          type = "app";
+          program = "${defaultPackage}/bin/anvil";
         };
 
         defaultApp = apps.forge;
