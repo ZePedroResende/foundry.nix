@@ -9,7 +9,7 @@
     };
     "aarch64-linux" = {
       url = "https://github.com/foundry-rs/foundry/releases/download/nightly-06a17bfe3265209a854353337cc4277c1a4c73d1/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "05622iphkllmh2cq97ayn4b8ddy5ndxay70vwvvgxdma49vm1ly9";
+      sha256 = "";
     }; 
     "x86_64-darwin" = {
       url = "https://github.com/foundry-rs/foundry/releases/download/nightly-06a17bfe3265209a854353337cc4277c1a4c73d1/foundry_nightly_darwin_amd64.tar.gz";
