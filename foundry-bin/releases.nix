@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2025-07-21T20:45:16Z";
+  timestamp = "2025-07-24T06:03:38Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-56b806a3ba7866a3b061093bebd0fa2ace97f1fc/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "15nx5pkvsl2vfqn4kxbq3kqmagcmqyk5qxcls5k316jm85n3vha7";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-9c3feff90b6532126b4391dfb4570401c8a6174e/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "1p5mramv4fqnkfsaa4pm4v60c3cz8kxjywzqrm4ip93q2g43v2qm";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-56b806a3ba7866a3b061093bebd0fa2ace97f1fc/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "0cjiypms6yffxglcj7j18bchhsg8gazwl7ks7f1ykhw0clcgxbrw";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-9c3feff90b6532126b4391dfb4570401c8a6174e/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "12x33k8za4wippvjbqswpw3b89xany5hjfcrxmdwby4j0nxr9yz4";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-56b806a3ba7866a3b061093bebd0fa2ace97f1fc/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "11fwgzq0f1mx89qf2c6a1kzcriqz88cb4c06iwd0p9v1gmkzkm07";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-9c3feff90b6532126b4391dfb4570401c8a6174e/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "13513gfvhzm1j00brg9xr2c2y4a8bymp59rh53jjvzbixasgqkji";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-56b806a3ba7866a3b061093bebd0fa2ace97f1fc/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "0bn9yj36v3abckz50rbjdk17xh5dvgb7rvsj6mkz8399rx2ar445";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-9c3feff90b6532126b4391dfb4570401c8a6174e/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "1x5m4pkdy9r8v0vzq7rhqn0n4y7ndv6q9zy4i4cz257isw1frizs";
     };
   };
 }
